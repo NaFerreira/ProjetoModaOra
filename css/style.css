@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Viaoda+Libre&display=swap');
+/* font-family: "Viaoda Libre", serif;
+ */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Federo&family=Viaoda+Libre&display=swap');
+/* "Federo", sans-serif */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Federo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Viaoda+Libre&display=swap');
+/* "Roboto", sans-serif */
+html, body{
+    min-height: 100%;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    min-width: 960px;
+}
+
+.container{
+    background-color: #162028;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.main__title{
+    margin-left: 150px;
+}
+
+.nav-bar{
+  margin-right: 56px;
+} 
+
+.container__logo{
+    font-family: "Viaoda Libre", serif;
+    color: white;
+    font-size: 38px;
+    margin: 0;
+}
+
+.container-nav ul{
+    display: flex;
+    gap: 64px;
+    padding: 0;
+}
+
+.container-nav li{
+    font-family: "Federo", sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.container-nav a{
+    text-decoration: none;
+    color: #425564;
+}
+
+.container-img img{
+    width: 100%;
+}
+.container-img{
+    margin: 0 auto;
+   
+}
+
+.content{
+    width: 90%;
+    margin: 56px auto;
+}
+.content h1{
+    font-size: 42px;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Viaoda Libre", serif;
+}
+
+.content p{
+    font-family: "Roboto", sans-serif;
+    text-indent: 32px;
+    font-size: 20px;
+    margin-top: 56px;
+    text-align: center;
+    color: #555;
+    line-height: 2;
+}
+
+.box-item{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 56px auto;
+}
+
+.box-item img{
+    width: 100%;
+    padding: 1px;
+}
+
+.card h2{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #555;
+}
+
+.card p{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+}
+
+.content-section{
+    background-color: #003d52;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.content-section__item{
+    padding: 120px;
+}
+.content-section__item h2{
+    color: white;
+    font-weight: normal;
+    font-family: "Viaoda Libre", serif;
+    font-size: 56px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.content-section__item p{
+    color: white;
+    width: 120vh;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 56px;
+    line-height: 1.5;
+}
+
+.footer{
+    padding: 1px;
+    background-color: #0b171f;
+}
+
+.footer p{
+    text-align: center;
+    color: #6f8597;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 5px;
+}
